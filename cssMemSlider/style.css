@@ -92,6 +92,10 @@ html {
     color: aliceblue;
 }
 
+body {
+    background-color: gray;
+}
+
 .container {
     min-height: 100vh;
     padding: 0.6rem;
@@ -249,7 +253,7 @@ label:active .circle,
     transform: translateX(-75%);
 }
 
-@media (max-width: 28.1rem) {
+@media (max-width: 767px) {
     .wrapper {
         flex-direction: column;
         row-gap: 1.8rem;
